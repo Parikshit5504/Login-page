@@ -1,0 +1,78 @@
+
+        body,
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+      /* The image used */
+      height: 400px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+.center{
+ 
+  height: 500px;
+  padding-top: 100px;
+
+
+}
+
+/* Add styles to the form container */
+.container {
+    /* right: 0; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+padding:20px;
+opacity: 1;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+    .iconcontainer{
+text-align: center;
+
+    }
+
+    .iconcontainer i{
+      background-color: #04AA6D;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+    }
+    
